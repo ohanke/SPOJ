@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class LiczbyPierwsze {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("Podaj liczbę testów:");
+        System.out.println("Podaj liczbę testów:");
         int amountOfTests = scanner.nextInt();
         for (int i = 0; i < amountOfTests; i++){
-            //System.out.println("Podaj liczbę. Sprawdzę czy jest ona pierwsza: ");
+            System.out.println("Podaj liczbę. Sprawdzę czy jest ona pierwsza: ");
             System.out.println(isPrimeNumber(scanner.nextInt()));
         }
     }
