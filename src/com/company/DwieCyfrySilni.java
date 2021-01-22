@@ -17,7 +17,7 @@ public class DwieCyfrySilni {
     }
 
     public static int factorial(int input){
-        if (input < 0)
+        if (input <= 0)
             return 0;
         if (input > 1)
             return input*factorial(input-1);
